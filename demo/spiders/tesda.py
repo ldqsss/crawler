@@ -14,7 +14,7 @@ class TesdaSpider(scrapy.Spider):  # 这个网站新闻很少 5*76
     allowed_domains = ['www.tesda.gov.ph']
     start_urls = ['https://www.tesda.gov.ph/Gallery']
 
-    website_id = 9999  # 还不清楚id具体是啥
+    website_id = 1274  # 还不清楚id具体是啥
     language_id = 1866  # 所用语言的id
     sql = {  # my sql 配置
         'host': '121.36.242.178',
